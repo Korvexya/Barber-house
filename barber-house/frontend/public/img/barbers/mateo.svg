@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241e17"/>
+      <stop offset="60%" stop-color="#14110d"/>
+      <stop offset="100%" stop-color="#070605"/>
+    </linearGradient>
+    <linearGradient id="goldM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2D07E"/>
+      <stop offset="50%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#8A6B25"/>
+    </linearGradient>
+    <radialGradient id="haloM" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bgM)"/>
+  <circle cx="200" cy="180" r="160" fill="url(#haloM)"/>
+  <!-- Master Barber Avatar Illustration -->
+  <g transform="translate(200, 200)">
+    <!-- Shoulders / Leather apron -->
+    <path d="M-110,180 C-100,100 -60,70 -30,65 L30,65 C60,70 100,100 110,180 Z" fill="#1b1713" stroke="url(#goldM)" stroke-width="1.5"/>
+    <!-- Apron cross straps -->
+    <path d="M-40,68 L-20,180 M40,68 L20,180" stroke="url(#goldM)" stroke-width="2" opacity="0.6"/>
+    <!-- Neck -->
+    <path d="M-22,65 L-22,25 C-15,30 15,30 22,25 L22,65 Z" fill="#b08b68"/>
+    <!-- Head / Jaw -->
+    <path d="M-45,-15 C-45,35 -25,50 0,50 C25,50 45,35 45,-15 C45,-60 25,-75 0,-75 C-25,-75 -45,-60 -45,-15 Z" fill="#c49a74"/>
+    <!-- Fade Haircut (Modern Textured Quiff) -->
+    <path d="M-48,-15 C-48,-45 -40,-85 0,-92 C40,-85 48,-45 48,-15 C42,-20 38,-30 35,-45 C20,-60 -20,-60 -35,-45 C-38,-30 -42,-20 -48,-15 Z" fill="#1e1814"/>
+    <path d="M-35,-45 C-25,-75 0,-85 25,-80 C15,-70 -10,-70 -20,-50 Z" fill="#2d241e"/>
+    <!-- Sharp Beard / Goatee -->
+    <path d="M-40,-5 C-38,25 -25,50 0,52 C25,50 38,25 40,-5 C35,5 20,12 0,12 C-20,12 -35,5 -40,-5 Z" fill="#1e1814"/>
+    <!-- Mustache -->
+    <path d="M-22,10 C-10,20 -2,15 0,13 C2,15 10,20 22,10 C12,5 5,7 0,7 C-5,7 -12,5 -22,10 Z" fill="#1a1410"/>
+    <!-- Barber Shears badge on apron -->
+    <circle cx="0" cy="115" r="22" fill="#0d0b09" stroke="url(#goldM)" stroke-width="1.5"/>
+    <text x="0" y="120" font-family="'Manrope', sans-serif" font-size="14" fill="url(#goldM)" text-anchor="middle">✂</text>
+  </g>
+  <rect x="30" y="420" width="340" height="60" rx="6" fill="#0d0b09" stroke="url(#goldM)" stroke-width="1" opacity="0.9"/>
+  <text x="200" y="445" font-family="'Bodoni Moda', serif" font-size="18" font-weight="700" fill="url(#goldM)" text-anchor="middle" letter-spacing="2">MATEO RIVAS</text>
+  <text x="200" y="465" font-family="'Manrope', sans-serif" font-size="11" fill="#a89f8b" text-anchor="middle" letter-spacing="1">MASTER BARBER · 10 AÑOS EXP.</text>
+</svg>
